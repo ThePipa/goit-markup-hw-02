@@ -12,10 +12,11 @@ body {
     color: var(--color);
     font-family: Roboto, Arial, sans-serif;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
-    line-height: 1.7;
+}
+
+ul {
+    list-style-type: none;
 }
 
 /* section-header */
@@ -32,6 +33,7 @@ body {
     font-size: 26px;
     line-height: 31px;
     text-decoration: none;
+    letter-spacing: 0.03em;
 }
 
 .span-logo {
@@ -45,13 +47,12 @@ body {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1;
+    letter-spacing: 0.02em;
 }
 
 .link {
     color: var(--color);
     text-decoration: none;
-    width: 45px;
-    height: 16px;
 }
 
 .link:hover {
@@ -69,6 +70,7 @@ body {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1;
+    letter-spacing: 0.02em;
 }
 
 .link-contacts:hover {
@@ -97,12 +99,14 @@ body {
 
 .primary-button {
     color: #fff;
+    font-family: Roboto, Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.8;
     background-color: var(--brand-color);
     cursor: pointer;
+    letter-spacing: 0.06em;
 }
 
 .advantages-section {
@@ -116,9 +120,17 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 1.1;
+    line-height: 1.7;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+}
+
+.advantages-description {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
 }
 
 .work-section {}
@@ -127,7 +139,7 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -140,49 +152,38 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
 }
 
-.description {
+.team-section-subtitle {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+}
+
+.team-section-description {
     color: #757575;
     font-size: 16px;
-    line-height: 1.1px;
-}
-
-/* footer-section */
-.footer-section {
-    background-color: var(--main-color);
-}
-
-.logo-footer {
-    color: #fff;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    text-decoration: none;
-}
-
-.address {
-    color: #fff;
-    font-style: normal;
-    font-size: 14px;
-    line-height: 1.7;
+    line-height: 1.19;
     letter-spacing: 0.03em;
 }
 
 /* portfolio-section */
 
 .button {
+    font-family: Roboto, Arial, sans-serif;
     color: var(--color);
     background-color: var(--color-button);
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
+    letter-spacing: 0.03em;
     border: 0;
     cursor: pointer;
 }
@@ -208,4 +209,60 @@ body {
 
 .section-cards-title {
     color: var(--color);
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.section-cards-description {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
+}
+
+/* footer-section */
+.footer-section {
+    background-color: var(--main-color);
+}
+
+.logo-footer {
+    color: #fff;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+}
+
+.address {
+    color: #fff;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+.link-contacts-footer {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+.link-contacts-footer:hover {
+    color: var(--brand-color);
+}
+
+.link-contacts-footer:focus {
+    color: var(--brand-color);
 }
