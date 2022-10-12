@@ -113,7 +113,7 @@ ul {
     color: var(--color-text);
 }
 
-.advantages-section-title {}
+/* .advantages-section-title {} */
 
 .advantages-title {
     color: var(--color);
@@ -133,7 +133,7 @@ ul {
     letter-spacing: 0.03em;
 }
 
-.work-section {}
+/* .work-section {} */
 
 .work-section-title {
     font-style: normal;
